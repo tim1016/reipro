@@ -1,0 +1,19 @@
+{
+    "name": "resonance/reipro",
+    "description": "Premium features for the theme",
+    "type": "WordPress Plugin",
+    "license": "GPL v3.0",
+    "authors": [
+        {
+            "name": "tim1016",
+            "email": "inkant@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Inc\\": "./inc"
+        }
+    }
+}
