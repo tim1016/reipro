@@ -10,10 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "webdevstudios/cmb2": "^2.4"
+    },
     "autoload":{
         "psr-4":{
             "REIInc\\": "./reiinc"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/cmb2/": ["webdevstudios/cmb2"]
         }
     }
 }
