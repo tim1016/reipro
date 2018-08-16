@@ -1,6 +1,6 @@
 <?php
 
-namespace Inc\Base;
+namespace REIInc\Base;
 
 class BaseController{
     public $plugin_path;

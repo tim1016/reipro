@@ -31,8 +31,8 @@ if(file_exists( dirname(__FILE__) . '/vendor/autoload.php'))
 // define('PLUGIN', plugin_basename( __FILE__ ));
 
 
-if ( class_exists( 'Inc\\Init' ) ){
-    Inc\Init::register_services();
+if ( class_exists( 'REIInc\\Init' ) ){
+    REIInc\Init::register_services();
 }
 
 

@@ -1,7 +1,7 @@
 <?php
 
-namespace Inc\Api\Callbacks;
-use Inc\Base\BaseController;
+namespace REIInc\Api\Callbacks;
+use REIInc\Base\BaseController;
 
 class ManagerCallbacks extends BaseController{
     public function checkboxSanitize($input)

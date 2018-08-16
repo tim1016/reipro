@@ -1,8 +1,8 @@
 <?php 
 
-namespace Inc\Base;
+namespace REIInc\Base;
 
-use Inc\Base\BaseController;
+use REIInc\Base\BaseController;
 
 class Enqueue extends BaseController{
 

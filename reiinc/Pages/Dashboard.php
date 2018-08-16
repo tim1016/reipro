@@ -1,10 +1,10 @@
 <?php 
 
-namespace Inc\Pages;
-use \Inc\Base\BaseController;
-use \Inc\Api\SettingsApi;
-use \Inc\Api\Callbacks\AdminCallbacks;
-use \Inc\Api\Callbacks\ManagerCallbacks;
+namespace REIInc\Pages;
+use \REIInc\Base\BaseController;
+use \REIInc\Api\SettingsApi;
+use \REIInc\Api\Callbacks\AdminCallbacks;
+use \REIInc\Api\Callbacks\ManagerCallbacks;
 
 
 class Dashboard extends BaseController{

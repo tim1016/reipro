@@ -2,7 +2,7 @@
 /**
  * @package  AlecadddPlugin
  */
-namespace Inc\Api\Widgets;
+namespace REIInc\Api\Widgets;
 
 use WP_Widget;
 

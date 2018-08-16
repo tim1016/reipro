@@ -1,6 +1,6 @@
 <?php
 
-namespace Inc\Api;
+namespace REIInc\Api;
 
 class SettingsApi{
 

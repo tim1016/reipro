@@ -1,6 +1,6 @@
 <?php
 
-namespace Inc\Base;
+namespace REIInc\Base;
 
 class SettingsLinks extends BaseController
 {
