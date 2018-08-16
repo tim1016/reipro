@@ -11,7 +11,7 @@ class SettingsLinks extends BaseController
 
     public function settings_link($links){
     //add custom settings
-        $settings_link = '<a href="admin.php?page=alecaddd_plugin">Settings</a>';
+        $settings_link = '<a href="admin.php?page=reipro_plugin">Settings</a>';
         array_push($links, $settings_link);
         return $links;
     }

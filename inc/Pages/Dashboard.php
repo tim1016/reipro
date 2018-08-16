@@ -47,19 +47,19 @@ class Dashboard extends BaseController{
     // public function setSubpages(){
     //     $this->subpages = [
     //         [
-    //             'parent_slug' => 'alecaddd_plugin',
+    //             'parent_slug' => 'reipro_plugin',
     //             'page_title' => 'Custom Taxonomies',
     //             'menu_title' => 'Taxonomies',
     //             'capability' => 'manage_options',
-    //             'menu_slug'=>  'alecaddd_taxonomies',
+    //             'menu_slug'=>  'reipro_taxonomies',
     //             'callback' => array($this->callbacks, 'taxonomyManager'),
     //         ],
     //         [
-    //             'parent_slug' => 'alecaddd_plugin',
+    //             'parent_slug' => 'reipro_plugin',
     //             'page_title' => 'Custom Widgets',
     //             'menu_title' => 'Widgets',
     //             'capability' => 'manage_options',
-    //             'menu_slug'=>  'alecaddd_widgets',
+    //             'menu_slug'=>  'reipro_widgets',
     //             'callback' => array($this->callbacks, 'widgetsManager'),
     //         ],
     //     ];
@@ -69,8 +69,8 @@ class Dashboard extends BaseController{
     public function setSettings(){
         $args = array(
             array(
-                'option_group' => 'alecaddd_plugin_settings',
-                'option_name' => 'alecaddd_plugin',
+                'option_group' => 'reipro_plugin_settings',
+                'option_name' => 'reipro_plugin',
                 'callback' => array($this->callbacks_mngr, 'checkboxSanitize')
             )
         );
@@ -80,10 +80,10 @@ class Dashboard extends BaseController{
     public function setSections(){
         $args = array(
             array(
-                'id' => 'alecaddd_admin_index',
+                'id' => 'reipro_admin_index',
                 'title' => 'Settings Manager',
                 'callback' => array($this->callbacks_mngr, 'adminSectionManager'),
-                'page' => 'alecaddd_plugin'
+                'page' => 'reipro_plugin'
             )
         );
         $this->settings->setSections( $args );
@@ -97,10 +97,10 @@ class Dashboard extends BaseController{
         //         'id' => $key,
         //         'title' => $val,
         //         'callback' => array($this->callbacks_mngr, 'checkboxField'),
-        //         'page' => 'alecaddd_plugin',
-        //         'section' => 'alecaddd_admin_index',
+        //         'page' => 'reipro_plugin',
+        //         'section' => 'reipro_admin_index',
         //         'args' => array(
-        //             'option_name' => 'alecaddd_plugin',
+        //             'option_name' => 'reipro_plugin',
         //             'label_for' => $key,
         //             'class' => 'ui-toggle'
         //         )
